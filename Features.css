@@ -1,0 +1,132 @@
+.container1{
+    width:32%;
+    text-align:center;
+    margin:auto;
+    border:1px solid black;
+    line-height:1.6em;
+    font-family: sans-serif;
+    animation: move 0.6s;
+    
+}
+.container2{
+    width:32%;
+    text-align:center;
+    margin:auto;
+    border:1px solid black;
+    line-height:1.6em;
+    font-family: sans-serif;
+    animation: move1 0.6s;
+    animation-delay:0.5s;
+    animation-fill-mode:both;
+    height:100%;
+    
+}
+.container3{
+    width:32%;
+    text-align:center;
+    margin:auto;
+    border:1px solid black;
+    line-height:1.6em;
+    font-family: sans-serif;
+    animation: move2 0.6s;
+    animation-delay:1s;
+    animation-fill-mode:both;
+}
+.container1 img{
+    width:100%;
+    height:100%;
+    margin:0px;
+    background-color: rgba(255, 235, 238,0.2);
+   
+}
+.container2 img{
+    width:100%;
+    height:100%;
+    margin:0px;
+    background-color: rgba(248, 239, 186,0.1);
+}
+.container3 img{
+    width:100%;
+    height:80%;
+    margin:0px;
+    
+   
+}
+section{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:100px;
+    margin:auto;
+    width:80%;
+    
+}
+#features{
+    text-align:center;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    padding:30px;
+    font-size:30px;
+    font-family:sans-serif;
+    font-weight:500;
+    border-bottom:1px solid black;
+    width:80%;
+    
+
+}
+
+@keyframes move{
+    from{transform:translatex(-500px)}
+    to{transform:translatex(0px)}
+}
+@keyframes move1{
+    from{transform:translatey(-900px)}
+    to{transform:translatey(0px)}
+    
+}
+@keyframes move2{
+    from{transform:translatex(900px)}
+    to{transform:translatex(0px)}
+}
+
+
+#list{
+    text-align:center;
+    letter-spacing:2px;
+    font-family:sans-serif;
+}
+
+#list h1{
+    margin:auto;
+    padding-bottom:20px;
+    padding-top:40px;
+    border-bottom:1px solid black;
+    width:80%;
+    
+}
+#list h3{
+    margin:auto;
+    padding-top:60px;
+}
+aside table{
+    
+    width:85%;
+
+}
+
+#table1  td, th{
+    border-bottom:1px solid black;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+#table1{
+    height:500px;
+    margin:auto;
+    padding:45px;
+    
+}
+#table1 th{
+    text-align:left;
+}
+
